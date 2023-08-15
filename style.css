@@ -1,0 +1,28 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #58ea23;
+}
+canvas {
+  position:absolute;
+  top: 55%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 5px;
+}
+#header
+{
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Bungee Shade', cursive;
+  color: red;
+  height: 90px;
+  width: 250px;
+  background-color: yellow;
+  border-width: 5px;
+  border-style: dotted;
+  border-color: blue;
+
+}

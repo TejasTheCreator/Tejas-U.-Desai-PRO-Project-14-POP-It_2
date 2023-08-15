@@ -1,0 +1,26 @@
+List of tasks that need to accomplished (projects):
+1) Issue: Bomb cannot reduce the no. of lives 
+2) Colors for the no. of lives text:
+if (lives === 3)
+  {
+    fill("limegreen");
+  }
+  else if (lives === 2)
+  {
+    fill("yellow");
+  }
+  else if (lives === 1)
+  {
+    fill("orange");
+  }
+  else if (lives === 0)
+  {
+    fill("red");
+  }
+3) Add gamestate, define losing and winning condition and start and end (game over) screens to be defined.
+4) Winning condition: If score exceeds 500 or 1000 (maybe increased or changed as infinite)
+5) Losing condition: If score is less than 0 or lives = 0.
+Extras:
+6) Issue: Very huge sprite hitboxes
+7) Issue: If one sprite is touched, rest of the sprites (of same type) are automatically removed.
+8) SFX
